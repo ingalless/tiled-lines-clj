@@ -1,18 +1,6 @@
-# sketch
+# Tiled Lines
 
-A Quil sketch designed to ... well, that part is up to you.
+The Tiled Lines lesson from [Generative Artistry Lesson 1](https://generativeartistry.com/tutorials/tiled-lines/)
 
-## Usage
-
-LightTable - open `core.clj` and press `Ctrl+Shift+Enter` to evaluate the file.
-
-Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
-
-REPL - run `(require 'sketch.core)`.
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Image:
+![Tiled Lines](./sketch.png)

@@ -18,4 +18,5 @@
   (doseq [x (range 0 (width) 10)
           y (range 0 (height) 10)]
     (draw-line x y 10 10))
-  (save "sketch.tif"))
+  (save "sketch.tif")
+  (save "sketch.png"))
