@@ -6,8 +6,8 @@
 (q/defsketch sketch
   :title "You spin my circle right round"
   :size [500 500]
-  ; update-state is called on each iteration before draw-state.
-  :draw dynamic/draw)
+  :draw dynamic/draw
+  :features [:keep-on-top])
 
 (defn refresh []
   (use :reload 'sketch.dynamic)
