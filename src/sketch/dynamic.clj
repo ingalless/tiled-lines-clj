@@ -15,8 +15,13 @@
   (stroke-weight 4)
   (background 220 49 30)
   (stroke 45 30 65)
-  (doseq [x (range 0 (width) 30)
-          y (range 0 (height) 30)]
-    (draw-line x y 30 30))
+  (doseq [x (range 0 (width) 50)
+          y (range 0 (height) 50)]
+    (draw-line x y 50 50))
+  (stroke 220 30 65)
+  (stroke-weight 4)
+  (doseq [x (range 25 (- (width) 50) 50)
+          y (range 50 (- (height) 50) 50)]
+    (draw-line x y 50 50))
   (save "sketch.tif")
   (save "sketch.png"))
