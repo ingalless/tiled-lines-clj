@@ -12,11 +12,11 @@
 (defn draw []
   (no-loop)
   (color-mode :hsb 360 100 100 1.0)
-  (stroke-weight 2)
+  (stroke-weight 4)
   (background 220 49 30)
-  (stroke 360)
-  (doseq [x (range 0 (width) 10)
-          y (range 0 (height) 10)]
-    (draw-line x y 10 10))
+  (stroke 45 30 65)
+  (doseq [x (range 0 (width) 30)
+          y (range 0 (height) 30)]
+    (draw-line x y 30 30))
   (save "sketch.tif")
   (save "sketch.png"))

@@ -5,7 +5,7 @@
 
 (q/defsketch sketch
   :title "You spin my circle right round"
-  :size [500 500]
+  :size [1920 1080]
   :draw dynamic/draw
   :features [:keep-on-top])
 
